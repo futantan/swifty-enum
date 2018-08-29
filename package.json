@@ -1,6 +1,6 @@
 {
   "name": "swifty-enum",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Swift-like enum with associated values",
   "main": "build/index.js",
   "scripts": {
