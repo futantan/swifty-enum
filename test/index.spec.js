@@ -46,6 +46,9 @@ describe('Enum for async state', () => {
     expect(Succeed({ payload: { msg: 'hello' } }).associatedValues).toEqual({ payload: { msg: 'hello' } });
     expect(Failed({ error: 500 }).rawValue).toEqual('Failed');
     expect(Failed({ error: 500 }).associatedValues).toEqual({ error: 500 });
+
+    expect(Enum.values(Succeed({ payload: { msg: 'hello' } }))).toEqual({ payload: { msg: 'hello' } });
+    expect(Enum.type(Succeed({ payload: { msg: 'hello' } }))).toEqual('Succeed');
   });
 
   it('should handle edge case', () => {

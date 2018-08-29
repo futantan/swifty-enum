@@ -46,4 +46,12 @@ Enum.rawValue = function (enumCase) {
   return enumCase.rawValue;
 }
 
+Enum.type = function (enumCase) {
+  return enumCase.rawValue;
+}
+
+Enum.values = function (enumCase) {
+  return enumCase.associatedValues;
+}
+
 export default Enum;
