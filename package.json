@@ -2,8 +2,10 @@
   "name": "swifty-enum",
   "version": "1.0.0",
   "description": "Swift-like enum with associated values",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
+    "build": "babel src -d build",
+    "dev": "watch 'npm run build' src",
     "test": "jest",
     "test:watch": "npm test -- --watch"
   },
@@ -24,6 +26,12 @@
   },
   "homepage": "https://github.com/futantan/swifty-enum#readme",
   "devDependencies": {
-    "jest": "^23.5.0"
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.4.2",
+    "jest": "^23.5.0",
+    "watch": "^1.0.2"
   }
 }
