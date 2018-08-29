@@ -1,0 +1,29 @@
+{
+  "name": "swifty-enum",
+  "version": "1.0.0",
+  "description": "Swift-like enum with associated values",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/futantan/swifty-enum.git"
+  },
+  "keywords": [
+    "enum",
+    "swift",
+    "associated",
+    "values"
+  ],
+  "author": "futantan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/futantan/swifty-enum/issues"
+  },
+  "homepage": "https://github.com/futantan/swifty-enum#readme",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}
