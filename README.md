@@ -8,7 +8,14 @@
  
 This repo helps you use Enum in [Swfit way](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html).
 
-## Create A Enum Type
+## Install
+Install using npm:
+
+```bash
+npm install --save swifty-enum
+```
+
+## Create An Enum Type
 
 ```js
 const Direction = Enum(['North', 'South', 'East', 'West']);
