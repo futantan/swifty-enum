@@ -4,6 +4,7 @@
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/futantan/swifty-enum/blob/master/LICENSE)
 [![npm version](https://img.shields.io/npm/v/swifty-enum.svg)](https://www.npmjs.com/package/swifty-enum)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
+[![codecov](https://codecov.io/gh/futantan/swifty-enum/branch/master/graph/badge.svg)](https://codecov.io/gh/futantan/swifty-enum)
  
 This repo helps you use Enum in [Swfit way](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html).
 
