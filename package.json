@@ -11,6 +11,10 @@
     "prepublish": "npm run build",
     "release": "np"
   },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/futantan/swifty-enum.git"
@@ -33,6 +37,7 @@
     "@babel/preset-env": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.4.2",
+    "codecov": "^3.0.4",
     "jest": "^23.5.0",
     "np": "^3.0.4",
     "watch": "^1.0.2"
