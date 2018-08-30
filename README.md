@@ -1,5 +1,10 @@
 # Swifty-Enum
 
+[![CircleCI](https://circleci.com/gh/futantan/swifty-enum.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/futantan/swifty-enum) 
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/futantan/swifty-enum/blob/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/swifty-enum.svg)](https://www.npmjs.com/package/swifty-enum)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
+ 
 This repo helps you use Enum in [Swfit way](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html).
 
 ## Create A Enum Type
