@@ -6,7 +6,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 [![codecov](https://codecov.io/gh/futantan/swifty-enum/branch/master/graph/badge.svg)](https://codecov.io/gh/futantan/swifty-enum)
  
-This repo helps you use Enum in [Swfit way](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html).
+This repo helps you use Enum in [Swift way](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html).
 
 ## Install
 Install using npm:
