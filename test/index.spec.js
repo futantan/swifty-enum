@@ -58,6 +58,10 @@ describe('Enum for async state', () => {
       .addCaseWithAssociatedValues('UPCA', ['numberSystem', 'identifier', 'check'])
       .addCaseWithAssociatedValues('QRCode', ['productCode'])
       .addCaseWithAssociatedValues('Test')
+      .addCase('Test2')
+      .addCases('Test3')
+      .addCases('Test4')
+      .addCases(['Test5', 'Test6'])
       .build();
     expect(BarCode.Test().associatedValues).toBe(undefined);
   })
